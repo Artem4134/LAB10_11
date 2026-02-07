@@ -176,7 +176,7 @@ button:hover{
 .thumbnail{
     position: relative;
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
     background-color: #000;
     border-radius: 12px;
     overflow: hidden;
@@ -232,4 +232,9 @@ button:hover{
 .video-meta{
     font-size: 13px;
     color: #606060;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
 }
